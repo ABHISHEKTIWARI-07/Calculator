@@ -1,0 +1,66 @@
+
+
+body {
+    background-color: gray ;
+}
+.calc{
+    border:0px solid #f9f9f9;
+    height:0px;
+    position: absolute ;
+    top: 0;
+    left: 0;
+    width:100%;
+    border-radius:10px;
+    background-color: blue;
+}
+
+
+#del{
+    background-color:orange;
+}
+p{
+    height:55px; 
+    width:90%;
+    background-color: white;
+    border: 2px solid #ffffff;
+    box-shadow: 2px 2px 1px rgba(20,60,70,40);
+    overflow-x:scroll;
+    font-size: 20px;
+    font-weight:bold;
+    font-family: plane ;
+    padding-top: 20px;
+    color: #444;
+    
+}
+button{
+    padding: 19px 25px;
+    margin: 10px;
+    border-radius: 8px;
+    color: whiteblue;;
+    font-weight:bolder;
+    font-size:16px;
+    border: blink ;
+   /* border-color:black;*/
+    margin-left: 0px;
+}
+#num{
+    background-color: lightyellow;
+}
+#ks{
+    background-color: lightyellow;
+}
+#sy{
+    background-color: lightblue;
+}
+/* .copy{
+    position: letter-spacing: decimal-leading-zero  ;
+    font-size:20px;
+    text-align:center;
+    right : 20px;
+    bottom: 10px;
+    color: black ;
+} */
+.b {
+    -webkit-animation: blink 0.1s 5;
+    animation: blink 0.1s 5;
+}
